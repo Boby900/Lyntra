@@ -5,7 +5,7 @@ import ConnectSupabaseSteps from "@/components/tutorial/ConnectSupabaseSteps";
 import SignUpUserSteps from "@/components/tutorial/SignUpUserSteps";
 import Header from "@/components/Header";
 
-export default async function Index() {
+export default  function Index() {
   const canInitSupabaseClient = () => {
     // This function is just for the interactive tutorial.
     // Feel free to remove it once you have Supabase connected.
