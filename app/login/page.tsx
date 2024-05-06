@@ -1,5 +1,5 @@
 import { login, signup } from './actions'
-
+//login page
 export default function LoginPage() {
   return (
     <form>
