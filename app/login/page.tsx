@@ -1,7 +1,16 @@
+
 import { login, signup } from './actions'
 //login page
+import { createContext } from 'react'
+import { createClient } from '@/utils/supabase/server';
+import { Auth } from "@supabase/auth-ui-react";
 export default function LoginPage() {
+  const supabase = createClient();
   return (
+    <Auth supabaseClient={supabase} >
+
+
+   
     <form>
       <label htmlFor="email">Email:</label>
       <input id="email" name="email" type="email" required />
@@ -10,5 +19,6 @@ export default function LoginPage() {
       <button formAction={login}>Log in</button>
       <button formAction={signup}>Sign up</button>
     </form>
+    </Auth>
   )
 }
