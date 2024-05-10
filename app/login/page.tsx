@@ -1,5 +1,5 @@
 "use client";
-import { login, signup } from './actions'
+import { login, signup, home } from './actions'
 import { Auth } from "@supabase/auth-ui-react";
 import { ThemeSupa } from "@supabase/auth-ui-shared";
 
@@ -39,7 +39,7 @@ const LoginPage = function () {
       theme="dark"
       providers={["google", "facebook"]}
     >
-    <form>
+    <form action={home}>
     <label htmlFor="email">Email:</label>
     <input id="email" name="email" type="email" required />
     <label htmlFor="password">Password:</label>
