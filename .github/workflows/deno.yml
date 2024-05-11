@@ -7,7 +7,7 @@
 # For more information see: https://github.com/denoland/setup-deno
 
 name: Deno
-
+run-name: ${{ github.actor }}
 on:
   push:
     branches: ["main"]
