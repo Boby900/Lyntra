@@ -1,14 +1,13 @@
+'use client'
 
-import { createClient } from "@/utils/supabase/server";
 
 export default  function Index() {
-  const supabase = createClient();
 
   return (
     <>
-    <div>
+    <h2>
     landing page
-    </div>
+    </h2>
     </>
     
   );
