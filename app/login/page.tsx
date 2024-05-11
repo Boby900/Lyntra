@@ -1,5 +1,5 @@
 "use client";
-import { login, signup, home } from './actions'
+import { login, signup } from './actions'
 import { Auth } from "@supabase/auth-ui-react";
 import { ThemeSupa } from "@supabase/auth-ui-shared";
 
