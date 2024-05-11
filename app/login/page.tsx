@@ -39,7 +39,7 @@ const LoginPage = function () {
       theme="dark"
       providers={["google", "facebook"]}
     >
-    <form action={home}>
+    <form>
     <label htmlFor="email">Email:</label>
     <input id="email" name="email" type="email" required />
     <label htmlFor="password">Password:</label>
