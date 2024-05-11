@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
 import { render, screen } from '@testing-library/react'
-import Index from '@/app/page.tsx'
+import Index from '../app/page.tsx'
  
 test('Index', () => {
   render(<Index />)
